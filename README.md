@@ -1,8 +1,8 @@
-#Liste de Tâches en React.js
+# Liste de Tâches en React.js
 
 Bienvenue dans cette application simple de liste de tâches créée à l'aide de React.js. Cette application vous permet d'ajouter, de visualiser et de supprimer des éléments de votre liste de tâches en un rien de temps.
 
-##Fonctionnalités
+## Fonctionnalités
 
 Ajouter des tâches: Vous pouvez ajouter de nouvelles tâches à votre liste en utilisant le formulaire intégré. Il suffit de saisir la tâche dans le champ de saisie et de cliquer sur le bouton "Envoyer" pour l'ajouter à la liste.
 
