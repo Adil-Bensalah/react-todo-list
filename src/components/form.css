@@ -1,0 +1,104 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+    min-height: 100vh;
+    font-family: 'Heebo', sans-serif;
+    padding: clamp(20px, 5vw, 50px) 10px;
+    color: #161616;
+  }
+
+#cont{
+ 
+    height: auto;
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+
+
+form{
+ text-align: center;
+ font-family: 'Heebo', sans-serif;
+
+ height: 135px;
+ width: 720px;
+ margin: auto ;
+}
+input{
+
+    height: 40px;
+    width: 700px;
+    border-radius: 5px;
+     border: 2px solid  black;
+     box-shadow: 2px 5px 5px  rgba(0,0,0,0.2);
+     font-size: 18px;
+     margin-top: 15px;
+      padding-left: 5px;
+    
+}
+
+ label{
+    float: left ; 
+    font-size: 18px;
+    margin-left: 10px;
+
+}
+
+button{
+    padding: 10px 15px;
+    margin-top: 20px;
+    float: left ; 
+    margin-left: 11px;
+    background:#4B0082;
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    color: #f1f1f1;
+    cursor: pointer;
+}
+
+button:hover{
+background: #483D8B;
+}
+h2{
+   font-size: 35
+   px;
+   margin-top: 20px;
+}
+
+
+.list-item{
+  border: 2px solid #D3D3D3;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 155px;
+  width: 700px;
+   margin-top: 20px;
+   
+}
+.list-item p {
+  font-size: 20px;
+  font-weight: 600;
+
+  display:inline;
+  height: 32px;
+  margin: 25px 50px;
+  padding-top: 5px;
+}
+
+.list-item button {
+display: inline;  
+background:#E50000;
+
+margin: 20px;
+}
+.list-item button:hover{
+  background:#EA3333;
+}
